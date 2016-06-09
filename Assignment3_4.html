@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS310 Assignment 3.4</title>
+
+</head>
+<body>
+    <form id = "vehicleRental">
+        <select id="carType">
+            <option value="Compact">Compact</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Standard">Standard</option>
+        </select>
+        <br><br>
+        <input type="number" id="daysRented"/>
+        <br><br>
+        <input type="radio" name="insurance" id="insuranceYes" value="yes"/>Yes, I want insured for $15/day
+        <br>
+        <input type="radio" name="insurance" id="insuranceNo" value="no"/>No, don't insure me
+        <br><br>
+        <input type="button" id="submit" value = "Submit" onclick = "buttonPressed()"/>
+    </form>
+    <script type="text/javascript" src="Assignment3_4.js"></script>
+</body>
+</html>
